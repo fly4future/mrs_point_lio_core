@@ -8,11 +8,11 @@ sources:
     sparse_paths:
       -
     links:
-      - source: ''
+      - source: ""
         target: mrs_point_lio_estimator_plugin
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/point-lio
+  - repo: https://github.com/fly4future/point-lio
     name: point-lio
     rev: ros2
     type: git
@@ -20,7 +20,7 @@ sources:
     sparse_paths:
       -
     links:
-      - source: ''
+      - source: ""
         target: point-lio
     scripts:
       - git submodule update --init --recursive
@@ -32,10 +32,10 @@ sources:
     sparse_paths:
       -
     links:
-      - source: ''
+      - source: ""
         target: livox_ros_driver2
     scripts:
       - git submodule update --init --recursive
-default_group: ''
+default_group: ""
 groups:
   -
